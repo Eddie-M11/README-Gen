@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Eddie-M11/README-Gen#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "^6.5.2"
   }
 }
