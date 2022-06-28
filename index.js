@@ -93,7 +93,7 @@ createNewFile(Tittle,Template)
 }
 );
 function createNewFile(fileName,data) {
-    fs.writeFile(`,/${fileName.toLowerCase().split(' ').join(' ')}.md`,data,(err)=>{
+    fs.writeFile(fileName,data,(err)=>{
         if(err){
             console.log(err);
         }
